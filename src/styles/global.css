@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-inter: var(--astro-font-inter);
+  --font-sora: var(--astro-font-sora);
+
+  --color-background: #141313;
+  --color-primary: #ffffff;
+  --color-primary-text: #2a2a2a;
+  --color-secondary: #2a2a2a;
+  --color-secondary-text: #ffffff;
+  --color-stroke: #262626;
+  --color-surface: #c4c7c8;
+}
