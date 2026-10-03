@@ -1,6 +1,9 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "lumo-lp",
-  "compatibility_date": "2026-04-27",
+  "account_id": "ff09f62a56eb2bb027398714da291b39",
+  // Set this to today's date
+  "compatibility_date": "2026-10-03",
   "assets": {
     "directory": "./dist"
   }
