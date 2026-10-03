@@ -17,7 +17,7 @@
 - `npm run preview` previews the built site locally with Astro.
 - `npm run cf:dev` builds then previews via Wrangler (`wrangler.dev`).
 - `npm run deploy` builds then deploys static assets to Cloudflare Workers.
-- GitHub Actions deploys `master` via `.github/workflows/deploy.yml` using `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets.
+- Production deploys run via Cloudflare Workers Builds on push to `master` (build: `npm run build`, deploy: `npx wrangler deploy`).
 - There are currently no test, lint, formatter, or typecheck scripts in `package.json`; do not claim they pass unless you add/run them.
 - For Astro diagnostics, use `npm run astro -- check` only after adding the required checker dependencies if Astro asks for them.
 
